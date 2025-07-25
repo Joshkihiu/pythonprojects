@@ -10,7 +10,7 @@ Each folder in this repository represents a separate Python project. Below is a 
 
 | Folder | Description |
 |--------|-------------|
-| `project-1-name/` | Just a basic Calculator to test out my python 
+| `project-1-name/calculator.py` | Just a basic Calculator to test out my python 
 | `project-2-name/` | 
 | `project-3-name/` | 
 <!-- Add more as needed -->
