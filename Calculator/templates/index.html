@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Calculator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <h1>Python Calculator</h1>
+
+        <input id="num1" type="number" placeholder="First number">
+
+        <select id="operator">
+            <option value="+">Addition (+)</option>
+            <option value="-">Subtraction (-)</option>
+            <option value="*">Multiplication (*)</option>
+            <option value="/">Division (/)</option>
+        </select>
+
+        <input id="num2" type="number" placeholder="Second number">
+
+        <button onclick="calculate()">Calculate</button>
+
+        <h2 id="result">Result appears here</h2>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
